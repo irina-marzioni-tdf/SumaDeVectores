@@ -17,8 +17,8 @@ console.log(`El número en la posición ${indice} es ${vector2[indice]}`);
 }
 let sumaDeVectores : number[] = new Array (6);
 for (indice = 0; indice < 6; indice++) {
-indice = vector1[indice] + vector2[indice];
+indice=vector1[indice]+vector2[indice]
 }
 for (indice = 0; indice < 6; indice++) {
-console.log(`La suma de los vectores es ${sumaDeVectores[indice]}`);
+console.log(`La suma de los vectores es ${sumaDeVectores[vector1[indice+vector2[indice]]]}`);
 }
