@@ -7,12 +7,9 @@ for (indice = 0; indice < 6; indice++) {
     )
   );
   vector1[indice] = nro;
+  console.log(`El número en la posición ${indice} del primer vector es nro`);
 }
-for (indice = 0; indice < 6; indice++) {
-  console.log(
-    `El número en la posición ${indice} del primer vector es ${vector1[indice]}`
-  );
-}
+
 let vector2: number[] = new Array(6);
 for (indice = 0; indice < 6; indice++) {
   nro = Number(
@@ -21,17 +18,12 @@ for (indice = 0; indice < 6; indice++) {
     )
   );
   vector2[indice] = nro;
+  console.log(`El número en la posición ${indice} del segundo vector es nro`);
 }
-for (indice = 0; indice < 6; indice++) {
-  console.log(
-    `El número en la posición ${indice} del segundo vector es ${vector2[indice]}`
-  );
-}
+
 let sumaDeVectores: number[] = new Array(6);
 for (indice = 0; indice < 6; indice++) {
   sumaDeVectores[indice] = vector1[indice] + vector2[indice];
-}
-for (indice = 0; indice < 6; indice++) {
   console.log(
     `El resultado es ${vector1[indice]}+${vector2[indice]}=${sumaDeVectores[indice]}`
   );
